@@ -15,3 +15,9 @@ button:disabled{opacity:.45;cursor:not-allowed}
 @media(max-width:760px){.steps{grid-template-columns:1fr;gap:6px}.steps>div{padding:9px 13px}.quiz-footer{align-items:stretch}.quiz-footer button{min-height:46px}}
 @media(max-width:420px){.quiz-footer{flex-direction:column-reverse}.quiz-footer button{width:100%}.answer{padding:14px 12px}.question-text{font-size:21px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* v2: ワンクリックの発展問題コース */
+.hero-hard{min-height:48px;padding:12px 17px;border:1px solid #c39a60;border-radius:4px;background:rgba(195,154,96,.10);color:#f6ddb5;font-size:13px;font-weight:750}
+.hero-hard:hover{background:rgba(195,154,96,.22);border-color:#efc688}
+.hero-hard:focus-visible{outline:3px solid #efc688;outline-offset:3px}
+@media(max-width:420px){.hero-actions>.primary,.hero-actions>.hero-hard{width:100%}.hero-hard{text-align:center}}
